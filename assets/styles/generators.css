@@ -1,0 +1,576 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+header,
+section {
+    overflow-x: hidden;
+}
+
+:root {
+    --Titillium: 'Titillium Web', sans-serif;
+    --Exo: 'Exo', sans-serif;
+    --Opensans : 'Open Sans', sans-serif;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    position: absolute;
+    opacity: 0.5;
+}
+
+
+header a, span{
+    font-family: var(--Titillium);
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 10px;
+    line-height: 25px;
+}
+
+
+header {
+    background:#000;
+    background-position: cover;
+    width: 100%;
+    /* height: 1300px; */
+    background-size: cover;
+    position: relative;
+    overflow-y:hidden;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: white;
+    min-width: 160px;
+    box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.nav-item .show{
+    color: #BF1E2E;
+}
+
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background: #FFFFFF;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+
+header .nav-item {
+    padding: 0.9em;
+}
+
+header .navbar-brand {
+    padding-left: 5vmin;
+}
+
+header .nav-link {
+    color: #FFFFFF;
+}
+header .nav-link:active{
+    color: #BF1E2E;
+
+}
+header .nav-link:hover {
+    color: #BF1E2E;
+}
+
+.nav-item .nav-link .btn .btn-danger {
+    color: #FFFFFF;
+}
+
+header .container .col-md-6 {
+    position: relative;
+}
+
+header .container .col-md-6:first-child{
+    margin-top: 4em;
+    color: #FFFFFF;
+    padding-left: 2em;
+    padding-right: 4em;
+    padding-top: 5em;
+}
+ header .container .col-md-6:first-child .row .col {
+     margin-top: 1em;
+    font-family: var(--Opensans);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    /* text-align: center; */
+    
+ }
+
+header .container .col-md-6:last-child {
+    padding-right: 3em;
+    padding-top: 4em;
+}
+
+ header .container .col-md-6 h1{
+    font-family: var(--Exo);
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: uppercase;
+ }
+
+ header .container .col-md-6 p {
+    font-family: var(--Opensans);
+    font-size: 15px;
+    padding-top: 1em;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+ }
+
+header .container .row .container .row .col-md-4 {
+    font-family: var(--Opensans);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 2em;
+    z-index: 1;
+}
+
+
+#book-appointment {
+    font-family: var(--Titillium);
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.section-1 {
+    background-color: #000;
+    overflow-y: hidden;
+    padding-top: 4em;
+}
+.section-1 .col .card:first-child .card-text {
+    font-family: var(--Titillium);
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.section-1 .card .card-title {
+    font-family: var(--Titillium);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.section-1 .card:last-child .card-text {
+    font-family: var(--Opensans);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.section-2 {
+    padding-top: 4em;
+}
+.section-2 .row {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.section-2 .row h3 {
+    font-family: var(--Titillium);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.section-2 .row p {
+    font-family: var(--Opensans);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.section-2 .row .col:first-child {
+    margin-left: 5em;
+}
+.section-2 .row .col:last-child {
+    margin-right: 5em;
+}
+.section-2 .card {
+    border: none;
+}
+.section-2 .card .card-title {
+    font-family: var(--Titillium);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-transform: uppercase;
+    color: #D93934;
+    border-bottom: #000 1px solid;
+}
+
+.card .card-title span {
+    font-family: var(--Titillium);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    background: #000;
+    padding: 2px 8px;
+    border-radius: 5px;
+
+}
+
+.section-2 .card .card-text {
+    font-family: var(--Opensans);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;   
+    padding-left: 2em; 
+}
+
+
+
+.section-3 {
+    padding-top: 4em;
+    background: #000;
+    color: white;
+    z-index: 10;
+}
+
+.section-3 .card .card-text {
+    font-family: var(--Opensans);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;   
+    padding-left: 2em; 
+}
+
+.extra-space .row {
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.section-3 .row h4 {
+    font-family: var(--Titillium);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+footer {
+    padding-top: 10em;
+    color: #FFFFFF;
+    background-color: #000;
+    background-image: url('../Footer-image\ 1.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+footer h4{
+    font-family: var(--Titillium);
+    font-weight: 700;
+    font-style: normal;
+    line-height: 25px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+footer p {
+    font-family: var(--Opensans);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+footer p a{
+    text-decoration: none;
+    color: #232528;
+}
+
+footer p a:hover,:active {
+    color: #BF1E2E;
+}
+
+.below-footer {
+    font-family: var(--Titillium);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+}
+
+.below-second {
+    font-family: var(--Titillium);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+/* 
+@media only screen and (max-width:320px){
+
+
+    #title {
+        text-align: center;
+        font-weight: 600;
+        font-size: 2vmin;
+        padding: 12px;
+        margin-bottom: 12px;
+    }
+      
+
+}
+
+@media screen and (max-width: 768px) {
+    
+    header .container .col-md-6:last-child p{
+        padding-right: 0px;
+    }
+
+    .section-1 .col-md-6:first-child {
+        padding-right: 2em;
+    }
+
+    .section-1 .col-md-6:first-child img{
+        margin-right: 2em;
+        position: absolute;
+    }
+
+    header .container .col-md-6:last-child {
+        padding-left: 2em;
+    }
+
+    .section-1 .col-md-6:last-child{
+        padding-right: 0px;
+    }
+
+    .section-2 .col-md-6 {
+        width: 80%;
+        padding-left: 0;
+        margin-left: 0px;
+    }
+
+    .section-2 h1 {
+        padding-left: 0;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    header{
+        margin-bottom: -4em;
+        height: 1000px;
+    }
+
+
+    header .container .col-md-6:last-child {
+        margin-top: 3em;
+        padding-bottom: 2em;
+    }
+
+
+    .section-1 {
+        height: 50em;
+    }
+
+    .section-1 .col-md-6:first-child {
+        position: relative;
+    }
+
+    .section-1 .col-md-6:first-child  img{
+        position: relative;
+        margin-top: 2em;
+        padding-left: 1em;
+        width: 100%;
+        height: 100%;
+    }
+
+    #secondrow{
+        margin-top: 8em;
+        padding-bottom: 3em;
+        padding-left: 2em;
+        padding-top: 2em;
+        padding-right: 2em;
+    }
+
+    #secondrow p{
+        text-align: justify;
+    }
+
+
+    .section-1 .col-md-6:last-child {
+        padding-top: 2em;
+        padding-left: 2em;
+        padding-right: 1em;
+    }
+
+    .section-2 {
+        height: 25em;
+    }
+
+    .section-2 h1{
+        font-size: 7vmin;
+    }
+
+    .section-2 .col-md-6{
+        width: 100%;
+    }
+
+    footer .row {
+        padding-left: 4vmin;
+    }
+
+    footer .col-md-3 {
+        padding-left: 1em;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+
+    #title {
+        font-size: 6vmin;
+    }
+
+    #secondrow{
+        margin-top: 12em;
+    }
+
+    header {
+        margin-bottom: -4em;
+    }
+
+    header .container .col-md-6:last-child {
+        margin-top: 3em;
+        padding-bottom: 2em;
+    }
+
+
+    .section-1 .col-md-6:last-child p{
+        padding-bottom: 2em;
+    }
+}
+
+
+@media screen and (min-width: 2560px) {
+    header .row .col-md-6:first-child{
+        margin-top: 10em; 
+       }
+
+    #title {
+        font-size: 3vmin;
+    }
+
+    .section-1 {
+        height: 40em;
+    }
+
+    .section-1 .col-md-6:first-child  img{
+        position: absolute;
+        margin-top: -5em;
+        padding-left: 1em;
+        width: 25%;
+        height: 40%;
+    }
+
+    #secondrow{
+        margin-top: 12em;
+        margin-left: 2em;
+    }
+
+    .section-1 .col-md-6:last-child {
+        padding-top: 5vmin;
+        padding-right: 2em;
+        padding-left: 1em;
+    }
+
+    .section-2 .col-md-6 {
+        width: 80%;
+        padding-left: 0;
+        margin-left: 0px;
+    }
+
+    .section-2 h1 {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+} */
