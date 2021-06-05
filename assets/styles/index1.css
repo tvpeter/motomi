@@ -398,29 +398,15 @@ footer p a:hover,:active {
     padding-left: 1em;
 }
 
-
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
    
     #central-header {
         font-size: 20px;
         margin-top: -2em;
        }
-
-      header .col-md-3:first-child {
-          display: none;
-      } 
-
-      header .container .col-md-3:nth-child(2) {
-          padding-left: 8em;
-      }
-
-      header .container .col-md-3:nth-child(3) {
-        margin-left: 12em;
-        padding-left: 2em;
-
-    }
+     
 
     
        .section-1 .col-md-6:first-child {
